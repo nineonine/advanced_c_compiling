@@ -17,5 +17,5 @@ Chapter2:
 # Clean target
 clean:
 	@echo "Cleaning build artifacts..."
-	@find . \( -name "*.o" -o -name "*.s" \) -exec rm -f {} +
+	@find . \( -name "*.o" -o -name "*.s" -o -name "demoApp" \) -exec rm -f {} +
 	@rm -rf build
